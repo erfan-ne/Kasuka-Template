@@ -1,3 +1,36 @@
-.header{
-    
+.header {
+  font-family: irsans;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.title1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title2 {
+  font-size: 2.5rem;
+  color: #ffc451;
+  font-weight: bold;
+}
+
+.title3 {
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .titles {
+    width: 70%;
+  }
 }

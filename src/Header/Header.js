@@ -7,9 +7,13 @@ export default function Header() {
   return (
     <div className='header'>
         <Navbar/>
-        <p>Powerful Digital Solutions with</p>
-        <p>KASUKA</p>
-        <p>We are a team of talented digital marketers</p>
+
+        <div className="titles">
+          <h1 className='title1'>Powerful Digital Solutions with</h1>
+          <span className='title2'>KASUKA</span>
+          <h2 className='title3'>We are a team of talented digital marketers</h2>
+        </div>
+
         <HeaderBox />
     </div>
   )
