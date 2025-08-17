@@ -10,7 +10,7 @@ export default function Header() {
 
       <div className="titles">
         <h1 className="title1">Powerful Digital Solutions with</h1>
-        <span className="title2">KASUKA</span>
+        <span className="title2">Kasuka</span>
         <h2 className="title3">We are a team of talented digital marketers</h2>
       </div>
 
