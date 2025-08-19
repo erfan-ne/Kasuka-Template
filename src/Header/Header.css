@@ -1,3 +1,9 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   font-family: irsans;
   display: flex;
@@ -5,6 +11,7 @@
   align-items: center;
   justify-content: center;
   color: rgba(255, 255, 255, 0.9);
+  width: 70%;
 }
 
 .boxes{
@@ -38,8 +45,15 @@
   font-size: 24px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1530px) {
   .titles {
     width: 70%;
   }
+  .header{
+    width: 100%;
+  }
 }
+
+
+
+
