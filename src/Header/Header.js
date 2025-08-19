@@ -5,7 +5,7 @@ import HeaderBox from "./HeaderBox";
 
 export default function Header() {
   return (
-    <div className="wrapper">
+    <div className="header-wrapper">
       <div className="header">
       <Navbar />
 
