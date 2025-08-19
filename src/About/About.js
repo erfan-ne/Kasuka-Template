@@ -3,6 +3,10 @@ import "./About.css"
 
 export default function About() {
   return (
-    <div>About sdasdfasdfsdfasdf dasffsdfgsdfg sdfgartgdsf</div>
+    <div className='wrapper'>
+        <div className="about-container">
+            
+        </div>
+    </div>
   )
 }
