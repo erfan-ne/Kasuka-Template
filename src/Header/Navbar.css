@@ -1,0 +1,65 @@
+.navbar {
+    font-family: irsans, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.kasuka-logo {
+    max-height: 40px;
+}
+
+.list {
+    margin: 0;
+    gap: 1.2rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc451;
+}
+
+.start-btn {
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px 25px 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid #ffc451;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.start-btn:hover {
+    background: #ffbb38;
+    color: #343a40;
+}

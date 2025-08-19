@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-height: 7.5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.box:hover {
+  border: #ffc451 solid 1px;
+  background-color: #ffc55110;
+}
+
+.box-icon svg {
+  width: 3rem;
+  color: #ffc451;
+}
+
+.box-title {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 15px;
+}
