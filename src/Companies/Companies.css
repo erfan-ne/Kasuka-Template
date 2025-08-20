@@ -13,7 +13,13 @@
     margin-left: 120px;
 }
 
-.logo{
+.company-logo{
     height: inherit;
     width: inherit;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.company-logo:hover{
+    filter: grayscale(0);
 }
