@@ -1,4 +1,15 @@
-.about-wrapper{
+.about{
     background-color: #fff;
 }
 
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-image{
+    max-width: 50%;
+    height: fit-content;
+}
