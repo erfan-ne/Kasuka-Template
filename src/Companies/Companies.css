@@ -1,3 +1,19 @@
-div{
-    color: red;
+.companies-wrapper{
+    display: flex;
+    padding: 2rem 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.logo-container{
+    width: 116px;
+    margin-left: 120px;
+}
+
+.logo{
+    height: inherit;
+    width: inherit;
 }
