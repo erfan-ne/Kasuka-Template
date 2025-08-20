@@ -1,6 +1,6 @@
 .about{
     background-color: #fff;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
 }
 
 .about-container{
@@ -13,6 +13,8 @@
 .about-image{
     max-width: 50%;
     height: fit-content;
+    border-radius: .5rem;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.185);
 }
 
 .about-title{
