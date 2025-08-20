@@ -13,3 +13,13 @@
     max-width: 50%;
     height: fit-content;
 }
+
+.about-title{
+    padding: 0 1rem 0 3rem;
+    text-align: justify;
+
+    h3 {
+        text-align: center;
+        margin-top: 0;
+    }
+}
